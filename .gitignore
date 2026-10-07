@@ -1,0 +1,40 @@
+# Build artifacts (see build/README.md)
+/build/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.Python
+.venv/
+venv/
+env/
+*.egg-info/
+.eggs/
+dist/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment / secrets — NEVER commit API keys
+.env
+*.env
+*.key
+secrets.json
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Generic DCU administrative files (guidelines, blank mark sheets, tutorial decks)
+docs/Useful docs/
+
+# DCU scaffold placeholders
+docs/documentation/README.md
